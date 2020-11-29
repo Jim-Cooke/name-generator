@@ -7,6 +7,8 @@ import array
 
 #build 27x27 table of letters in names and letters that follow
 # _ to z
+# OR
+# use table of firstletter, nextletter, number
 # (a,b)= number of times b comes after a in words
 # (a,b)=1 initial value
 # startwith[] = total number of pairs that start with that letter
@@ -17,10 +19,16 @@ current_names = '_carol_alice_bob_bill_'
 letters = '_abcdefghijklmnopqrstuvwxyz'
 
 #fill 27x27 table
-grid = {}
-for n in range (0, 27):
-    for m in range (0, 27):
-        grid[(n, m)]=1
+#grid = {}
+#for n in range (0, 27):
+#    for m in range (0, 27):
+#        grid[(n, m)]=1
+
+firstletter = ['_']
+nextletter = ['_']
+pairs = [0]
+#append to these three lists
+
 
 
 
