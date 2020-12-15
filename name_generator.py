@@ -17,6 +17,11 @@ import array
 current_names = '_carol_alice_bob_bill_'
 
 letters = '_abcdefghijklmnopqrstuvwxyz'
+startwith = [0]
+for n in range (0, 27):
+    startwith.append(0)
+
+# print(startwith)
 
 #fill 27x27 table
 #grid = {}
@@ -29,9 +34,32 @@ nextletter = ['_']
 pairs = [0]
 #append to these three lists
 
+for n in range (0, len(current_names)-1):
+    letter_1 = current_names[n]
+    letter_2 = current_names[n+1]
+    #list of how often a letter is first in a pair
+    for q in range (0, 27):
+        if letter_1 == letters[q]:
+            startwith[q] = startwith[q] + 1
+            break
+    # print(letter_1)
+    # create table of pairs and how often they occur
+    for m in range (0, len(pairs)):
+        if firstletter[m] == letter_1 and nextletter[m] == letter_2:
+            break
+    if firstletter[m] == letter_1 and nextletter[m] == letter_2:
+        pairs[m] = pairs[m] + 1
+    else:
+        firstletter.append(letter_1)
+        nextletter.append(letter_2)
+        pairs.append(1)
+
+#for p in range (0, len(pairs)):
+#    print (firstletter[p], " ", nextletter[p], " ", pairs[p])
+#print(startwith)
 
 
-
+        
 
 
     
