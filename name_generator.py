@@ -24,15 +24,35 @@ def random_1 ():
     rs = rs - math.floor(rs)
     return rs
 
-#current_names = '_jim_donna_bryce_greg_joel_'
+current_names = '_jim_donna_bryce_greg_joel_'\
+                'peter_connie_liam_sean_ian_george_'
 #first names
-current_names = '__babe_essa_essa_cabot_ziggy_urkle_keith_flizbit_bye_mag'\
-'_russell_allen_rodney_matthew_richard_sherna_shamus_wood_barrey_pu_alan_sid'\
-'_paul_pud_eric_randy_sheri_bransio_rako_jane_craig_bruce_cindy_stevenip_sarai'\
-'_richard_alex_margaret_sandra_laura_steve_susan_paul_irene_irene_rita_rita'\
-'_rita_stephan_carl_mickey_lefke_steve_lorna_marta_lisa_marina_valerie_janet'\
-'_eayan_connie_lynn_jennifer_ron_gary_sylvia_joanne_troy_malayah_karl_bob'\
-'_mark_guy_helen_rebecca_tom_james_'
+#current_names = '__babe_essa_essa_cabot_ziggy_urkle_keith_flizbit_bye_mag'\
+#'_russell_allen_rodney_matthew_richard_sherna_shamus_wood_barrey_pu_alan_sid'\
+#'_paul_pud_eric_randy_sheri_bransio_rako_jane_craig_bruce_cindy_stevenip_sarai'\
+#'_richard_alex_margaret_sandra_laura_steve_susan_paul_irene_irene_rita_rita'\
+#'_rita_stephan_carl_mickey_lefke_steve_lorna_marta_lisa_marina_valerie_janet'\
+#'_eayan_connie_lynn_jennifer_ron_gary_sylvia_joanne_troy_malayah_karl_bob'\
+#'_mark_guy_helen_matt_rebecca_tom_james_'
+
+#last names
+#current_names = '_essa_moores_inaspin_howe_mcdowellstick_richardson_dyke_moores'\
+#'_thomas_gundy_habu_mohair_pouge_gimpy_kush_bartness_geezer_watson_habu_barnes_welsh'\
+#'_webster_faw_fenton_fawe_kipfer_ommen_blaster_xyrafa_burrell_habu_dyke_simons_'\
+#'_stryker_wheatley_dalatier_berg_moores_lopriis_fish_dahms_gutshalk_turnbald_'
+
+#places
+#current_names = '_babe_seme_seaub_boz_kumsquat_abbanoromel_gim'/
+#'_morcom_sub_dum_lo_smaks_chum_misinac_torrid_wingdor_tromtu'/
+#'_baty_machu_pichu_bluestone_bung_donte_white_hill_mank_fig'/
+#'_monk_golgar_brush_peter_verge_ghent_sinub_caintucky_trimble'/
+#'_tie_chitzen_itzat_web_dragon_citadel_judson_goromarch_newburgh'/
+#'_bonavista_thule_fredsix_muda_lamo_minik_gass_bink_keil_roodpryk'/
+#'_lam_garfaat_keilan_kumsquat_bridge_des_moines_graceland_bon'/
+#'_slogath_hard_longie_kum_hyp_sumac_kumeo_ostwood_led_babe'/
+#'_warkworth_miz_syrinx_bajan_liz_riz_lotusland_simund_texarkana'/
+#'_big_sandy_denver_berta_alberado_'
+
 
 letters = '_abcdefghijklmnopqrstuvwxyz'
 startwith = [0]
