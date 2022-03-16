@@ -24,8 +24,8 @@ def random_1 ():
     rs = rs - math.floor(rs)
     return rs
 
-current_names = '_jim_donna_bryce_greg_joel_'\
-                'peter_connie_liam_sean_ian_george_'
+#current_names = '_jim_donna_bryce_greg_joel_'\
+#                'peter_connie_liam_sean_ian_george_'
 #first names
 #current_names = '__babe_essa_essa_cabot_ziggy_urkle_keith_flizbit_bye_mag'\
 #'_russell_allen_rodney_matthew_richard_sherna_shamus_wood_barrey_pu_alan_sid'\
@@ -42,16 +42,16 @@ current_names = '_jim_donna_bryce_greg_joel_'\
 #'_stryker_wheatley_dalatier_berg_moores_lopriis_fish_dahms_gutshalk_turnbald_'
 
 #places
-#current_names = '_babe_seme_seaub_boz_kumsquat_abbanoromel_gim'/
-#'_morcom_sub_dum_lo_smaks_chum_misinac_torrid_wingdor_tromtu'/
-#'_baty_machu_pichu_bluestone_bung_donte_white_hill_mank_fig'/
-#'_monk_golgar_brush_peter_verge_ghent_sinub_caintucky_trimble'/
-#'_tie_chitzen_itzat_web_dragon_citadel_judson_goromarch_newburgh'/
-#'_bonavista_thule_fredsix_muda_lamo_minik_gass_bink_keil_roodpryk'/
-#'_lam_garfaat_keilan_kumsquat_bridge_des_moines_graceland_bon'/
-#'_slogath_hard_longie_kum_hyp_sumac_kumeo_ostwood_led_babe'/
-#'_warkworth_miz_syrinx_bajan_liz_riz_lotusland_simund_texarkana'/
-#'_big_sandy_denver_berta_alberado_'
+current_names = '_babe_seme_seaub_boz_kumsquat_abbanoromel_gim'\
+'_morcom_sub_dum_lo_smaks_chum_misinac_torrid_wingdor_tromtu'\
+'_baty_machu_pichu_bluestone_bung_donte_white_hill_mank_fig'\
+'_monk_golgar_brush_peter_verge_ghent_sinub_caintucky_trimble'\
+'_tie_chitzen_itzat_web_dragon_citadel_judson_goromarch_newburgh'\
+'_bonavista_thule_fredsix_muda_lamo_minik_gass_bink_keil_roodpryk'\
+'_lam_garfaat_keilan_kumsquat_bridge_des_moines_graceland_bon'\
+'_slogath_hard_longie_kum_hyp_sumac_kumeo_ostwood_led_babe'\
+'_warkworth_miz_syrinx_bajan_liz_riz_lotusland_simund_texarkana'\
+'_big_sandy_denver_berta_alberado_'
 
 
 letters = '_abcdefghijklmnopqrstuvwxyz'
